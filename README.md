@@ -1,22 +1,17 @@
 
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/19553554/66697551-27384b00-ed09-11e9-9fe8-210918fdeb77.png" alt="pyecharts logo" width=600/>
-</p>
-
-<p align="center">
-    <i>🎨A hand drawing style charts library in Java.</i>
-</p>
+<div align=center><img src="https://user-images.githubusercontent.com/19553554/66697551-27384b00-ed09-11e9-9fe8-210918fdeb77.png"></div>
 
 
+-----
+🎨A hand drawing style charts library in Java.
 
-## 📣 Description
+##  📣 Description
 
 - The cute hand drawing style charts library is base on this project [chart.xkcd](https://github.com/timqian/chart.xkcd) :rocket:.
 
 - There is an implemention in Python ([cutecharts](https://github.com/chenjiandongx/cutecharts)) from my cute friend :dog:.
 
 - I wanna implement it in Java, that what here is ([cutecharts](https://github.com/Koooooo-7/cutecharts)) 🎨.
-
 
 
 ## 📝 Use
@@ -49,6 +44,6 @@ eg :
 
 
 
-## 📃 License
+## 📃 License
 
 **MIT**  [©Koy](https://github.com/Koooooo-7)

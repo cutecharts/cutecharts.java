@@ -18,7 +18,7 @@
 ##  🔖 Documentation
 
 > All the configurations detail you can find on there [chart.xkcd](https://timqian.com/chart.xkcd/).  
-> All the demos is already in the **demo**  directory.
+> All the demos are already in the **demo**  directory.
 
 
 

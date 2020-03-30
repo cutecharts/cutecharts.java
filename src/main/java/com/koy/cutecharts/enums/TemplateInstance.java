@@ -22,11 +22,11 @@ public enum TemplateInstance {
 
     private Template template;
 
-    public  Template getTemplate(){
+    public Template getTemplate() {
         return this.template;
-    };
+    }
 
-    private static Template getConfig(TemplateEnums tpl){
+    private static Template getConfig(TemplateEnums tpl) {
 
         try {
             return FreeMarkConfig.getInstance().getTemplate(tpl.getName());
@@ -35,6 +35,5 @@ public enum TemplateInstance {
         }
         return null;
     }
-
 
 }

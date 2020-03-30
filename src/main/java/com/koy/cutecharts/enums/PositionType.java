@@ -6,11 +6,7 @@ package com.koy.cutecharts.enums;
  * @Date 2020/03/28
  */
 public enum PositionType {
-    UP_LEFT(1)
-    ,UP_RIGHT(2)
-    ,BOTTOM_LEFT(3)
-    ,BOTTOM_RIGHT(4)
-    ;
+    UP_LEFT(1), UP_RIGHT(2), BOTTOM_LEFT(3), BOTTOM_RIGHT(4);
 
     private int config;
 

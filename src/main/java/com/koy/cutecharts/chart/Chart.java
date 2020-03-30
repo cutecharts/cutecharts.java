@@ -13,7 +13,6 @@ import java.util.UUID;
  */
 public class Chart {
 
-
     private String title;
     transient private String type;
     transient private String width;

@@ -40,7 +40,7 @@ public class Scatter {
 
         Chart scatter = new ChartBuilder.newChart(ChartType.SCATTER, "Demo-Scatter")
                 .setOptions(scatterOptions)
-                .setXYLabels("Coodinate","Probability")
+                .setXYLabels("Coodinate", "Probability")
                 .setData(dataSet11)
                 .setData(dataSet1)
                 .build();

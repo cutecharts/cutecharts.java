@@ -5,8 +5,6 @@ import com.koy.cutecharts.enums.ChartType;
 import com.koy.cutecharts.options.BaseOptions;
 import com.koy.cutecharts.options.GlobalOptions;
 
-import java.util.List;
-
 /**
  * @Description
  * @Auther Koy  https://github.com/Koooooo-7
@@ -20,7 +18,7 @@ public class ChartBuilder {
         private Chart chart;
         private GlobalOptions globalOptions = new GlobalOptions();
 
-        private void init(ChartType type){
+        private void init(ChartType type) {
             this.chart = new Chart(type);
             this.chartType = type;
         }
@@ -39,7 +37,7 @@ public class ChartBuilder {
             this.globalOptions.setTitle(title);
         }
 
-        public newChart(ChartType type, String title,String width,String height) {
+        public newChart(ChartType type, String title, String width, String height) {
             this.chart = new Chart(type);
             this.chartType = type;
             this.globalOptions.setTitle(title);
@@ -47,7 +45,7 @@ public class ChartBuilder {
             this.globalOptions.setWidth(width);
         }
 
-        public newChart setLabels(Integer[]interval) {
+        public newChart setLabels(Integer[] interval) {
             this.chart.getData().setLabels(interval);
             return this;
         }
@@ -74,7 +72,6 @@ public class ChartBuilder {
 
         }
 
-        /*Line Options*/
         public newChart setOptions(BaseOptions options) {
             checkOptionsType(options);
             this.chart.setOptions(options);
@@ -98,10 +95,9 @@ public class ChartBuilder {
         }
 
         private void checkOptionsType(BaseOptions options) {
-            if (!options.getChartType().getSymbol().equals(this.chart.getType())){
+            if (!options.getChartType().getSymbol().equals(this.chart.getType())) {
                 throw new IllegalArgumentException("Chart options non-match chart type");
             }
         }
-
     }
 }

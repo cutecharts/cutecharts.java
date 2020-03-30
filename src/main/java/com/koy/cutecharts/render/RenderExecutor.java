@@ -30,7 +30,7 @@ public class RenderExecutor {
         String src = path.getPath();
         int index = src.lastIndexOf('.');
         if (index == -1) {
-            render(chart,new File(src+'/'+DEFAULT_PATH));
+            render(chart, new File(src + '/' + DEFAULT_PATH));
             return;
         }
         String suffix = src.substring(index + 1);
@@ -55,7 +55,5 @@ public class RenderExecutor {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-
     }
 }

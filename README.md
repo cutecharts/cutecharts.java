@@ -17,20 +17,14 @@
 
 ##  🔖 Documentation
 
-All the configuration detail you can find on there [chart.xkcd](https://timqian.com/chart.xkcd/).
-
-All the demos is already in the **demo**  directory.
-
+> All the configurations detail you can find on there [chart.xkcd](https://timqian.com/chart.xkcd/).  
+> All the demos is already in the **demo**  directory.
 
 
-<div align="center">
-      <img src="https://user-images.githubusercontent.com/19553554/66558121-9f760380-eb85-11e9-8b37-6d4dbd39f2e8.png" width="33%"/>
-      <img src="https://user-images.githubusercontent.com/19553554/66558192-bddbff00-eb85-11e9-8cf1-bef4b93434af.png" width="33%"/>
-      <img src="https://user-images.githubusercontent.com/19553554/66558265-db10cd80-eb85-11e9-8450-1535b6e68bc7.png" width="33%"/>
-      <img src="https://user-images.githubusercontent.com/19553554/66558482-317e0c00-eb86-11e9-96f9-4de0f1611c3d.png" width="33%"/>
-      <img src="https://user-images.githubusercontent.com/19553554/66558545-4ce91700-eb86-11e9-9cda-402e1e6f19b1.png" width="33%"/>
-      <img src="https://user-images.githubusercontent.com/19553554/66558614-6c803f80-eb86-11e9-8386-46315c5f0843.png" width="33%"/>
-</div>
+
+
+<img src=https://user-images.githubusercontent.com/33706142/77919719-1e93fb00-72d0-11ea-8116-e2aa4a89d64a.png />  
+
 
 
 

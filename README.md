@@ -2,8 +2,10 @@
     <img src="https://user-images.githubusercontent.com/19553554/66697551-27384b00-ed09-11e9-9fe8-210918fdeb77.png">
 </div>
 
+
 -----
-*🎨A hand drawing style charts library in Java.*
+
+<p align=center>🎨A hand drawing style charts library in Java.</p>
 
 ##  📣 Description
 
@@ -31,7 +33,26 @@
 ---
 
 ## 📝 Use
+```java
+        DataSet dataSet = new DataSet("Kobe", new Integer[]{5, 2, 2, 3, 1, 4});
+        DataSet dataSet1 = new DataSet("God", new Integer[]{1, 1, 1, 1, 1, 1});
 
+        RadarOptions radarOptions = new RadarOptions();
+        radarOptions.setShowLegend(true);
+        radarOptions.setShowLabels(true);
+        radarOptions.setBackgroundColor("purple");
+        radarOptions.setDataColors(new String[]{"#d48265", "#61a0a8"});
+
+        Chart radar = new ChartBuilder.newChart(ChartType.RADAR, "Demo-Radar")
+                .setOptions(radarOptions)
+                .setLabels(new String[]{"score", "assist", "rebound", "block", "steal", "shootRate"})
+                .setData(dataSet)
+                .setData(dataSet1)
+                .build();
+        RenderExecutor.render(radar);
+```  
+
+![kobe](https://user-images.githubusercontent.com/33706142/78035089-34222700-739b-11ea-95ad-366ca54ad656.png)  
 
 
 ```java

@@ -21,6 +21,8 @@ public class Radar {
         RadarOptions radarOptions = new RadarOptions();
         radarOptions.setShowLegend(true);
         radarOptions.setShowLabels(true);
+        radarOptions.setBackgroundColor("purple");
+        radarOptions.setDataColors(new String[]{"#d48265", "#61a0a8"});
 
         Chart radar = new ChartBuilder.newChart(ChartType.RADAR, "Demo-Radar")
                 .setOptions(radarOptions)

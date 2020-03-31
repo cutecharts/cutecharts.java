@@ -3,8 +3,6 @@ package com.koy.cutecharts.options;
 import com.koy.cutecharts.enums.ChartType;
 import com.koy.cutecharts.enums.PositionType;
 
-import java.util.List;
-
 /**
  * @Description
  * @Auther Koy  https://github.com/Koooooo-7
@@ -35,7 +33,7 @@ public class BaseOptions implements Options {
     private boolean showLabels = false;
     private boolean showLegend = true;
     private PositionType legendPosition = PositionType.UP_LEFT;
-    private List<String> dataColors;
+    private String[] dataColors;
     private boolean unxkcdify = false;
     private String strokeColor = "black";
     private String backgroundColor = "white";
@@ -91,11 +89,11 @@ public class BaseOptions implements Options {
         this.legendPosition = legendPosition;
     }
 
-    public List<String> getDataColors() {
+    public String[] getDataColors() {
         return dataColors;
     }
 
-    public void setDataColors(List<String> dataColors) {
+    public void setDataColors(String[] dataColors) {
         this.dataColors = dataColors;
     }
 

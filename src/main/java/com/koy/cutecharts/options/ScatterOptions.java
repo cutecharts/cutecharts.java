@@ -12,10 +12,13 @@ public class ScatterOptions extends BaseOptions {
      * showLabels: display labels near every line (default false)\
      * dotSize: you can change size of the dots if you want (default 1)
      * showLine: connect the points with lines (default: false)
+     * timeFormat: specify the time format if the x values are time ,use dayjs
+     * to format time, you can find the all the available formats here
      */
     private boolean showLegend = false;
     private boolean showLine = false;
     private int dotSize = 1;
+    private String timeFormat;
 
     public ScatterOptions() {
         super(ChartType.SCATTER);
@@ -43,5 +46,13 @@ public class ScatterOptions extends BaseOptions {
 
     public void setShowLine(boolean showLine) {
         this.showLine = showLine;
+    }
+
+    public String getTimeFormat() {
+        return timeFormat;
+    }
+
+    public void setTimeFormat(String timeFormat) {
+        this.timeFormat = timeFormat;
     }
 }

@@ -18,6 +18,7 @@ public class Pie {
         DataSet dataSet = new DataSet("amount", new Integer[]{1, 2, 3, 4, 5});
 
         PieOptions pieOptions = new PieOptions();
+        pieOptions.setInnerRadius(0);
 
         Chart pie = new ChartBuilder.newChart(ChartType.PIE, "Demo-Pie")
                 .setOptions(pieOptions)

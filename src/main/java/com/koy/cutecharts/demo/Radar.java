@@ -20,6 +20,7 @@ public class Radar {
 
         RadarOptions radarOptions = new RadarOptions();
         radarOptions.setShowLegend(true);
+        radarOptions.setShowLabels(true);
 
         Chart radar = new ChartBuilder.newChart(ChartType.RADAR, "Demo-Radar")
                 .setOptions(radarOptions)

@@ -10,22 +10,14 @@ import com.koy.cutecharts.enums.ChartType;
 public class RadarOptions extends BaseOptions {
 
     /**
-     * showLabels: display labels near every line (default false)\
+     * showLabels: display labels near every line (default false)
      * dotSize: you can change size of the dots if you want (default 1)
      */
-    private boolean showLegend = false;
     private int dotSize = 1;
 
     public RadarOptions() {
         super(ChartType.RADAR);
-    }
-
-    public void setShowLegend(boolean showLegend) {
-        this.showLegend = showLegend;
-    }
-
-    public boolean isShowLegend() {
-        return showLegend;
+        super.setShowLegend(false);
     }
 
     public int getDotSize() {

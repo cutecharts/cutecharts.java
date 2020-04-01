@@ -33,6 +33,17 @@
 ---
 
 ## 📝 Use
+
+### Import Dependency
+> pom.xml
+```xml
+        <dependency>
+            <groupId>com.koy</groupId>
+            <artifactId>cutecharts</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+```
+### Code Demo
 ```java
         DataSet dataSet = new DataSet("Kobe", new Integer[]{5, 2, 2, 3, 1, 4});
         DataSet dataSet1 = new DataSet("God", new Integer[]{1, 1, 1, 1, 1, 1});

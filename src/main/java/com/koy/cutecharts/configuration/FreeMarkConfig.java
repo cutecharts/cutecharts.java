@@ -15,14 +15,14 @@ public class FreeMarkConfig {
 
     private static final Configuration cfg = new Configuration();
 
-    private static final String BASE_TEMPLATE_DIR = FreeMarkConfig.class.getResource("/").getPath() + "/templates";
+    private static final String BASE_TEMPLATE_DIR = "/templates";
 
     static {
         try {
-            cfg.setDirectoryForTemplateLoading(new File(BASE_TEMPLATE_DIR));
-            cfg.setDefaultEncoding("UTF-8");
+            cfg.setClassForTemplateLoading(FreeMarkConfig.class, BASE_TEMPLATE_DIR);
             cfg.setTemplateExceptionHandler(TemplateExceptionHandler.RETHROW_HANDLER);
-        } catch (IOException ignore) {
+            cfg.setDefaultEncoding("UTF-8");
+        } catch (Exception ignore) {
         }
     }
 

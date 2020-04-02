@@ -17,6 +17,7 @@
         <freemarker.version>2.3.20</freemarker.version>
         <fastjson.version>1.2.67</fastjson.version>
         <junit.version>4.13</junit.version>
+        <mockito.version>3.3.3</mockito.version>
     </properties>
     <dependencies>
         <dependency>
@@ -35,6 +36,13 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>${mockito.version}</version>
+            <scope>test</scope>
+        </dependency>
+
 
     </dependencies>
 

@@ -3,9 +3,6 @@ package com.koy.cutecharts.configuration;
 import freemarker.template.Configuration;
 import freemarker.template.TemplateExceptionHandler;
 
-import java.io.File;
-import java.io.IOException;
-
 /**
  * @Description
  * @Auther Koy  https://github.com/Koooooo-7

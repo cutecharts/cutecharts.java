@@ -18,6 +18,9 @@ public class ChartBuilder {
         private Chart chart;
         private GlobalOptions globalOptions = new GlobalOptions();
 
+        public newChart() {
+        }
+
         private void init(ChartType type) {
             this.chart = new Chart(type);
             this.chartType = type;
@@ -95,9 +98,25 @@ public class ChartBuilder {
         }
 
         private void checkOptionsType(BaseOptions options) {
-            if (!options.getChartType().getSymbol().equals(this.chart.getType())) {
+            if (!options.getChartType().getSymbol().equals(this.chartType.getSymbol())) {
                 throw new IllegalArgumentException("Chart options non-match chart type");
             }
+        }
+
+        public Chart getChart() {
+            return chart;
+        }
+
+        public void setChart(ChartType chart) {
+            init(chart);
+        }
+
+        public GlobalOptions getGlobalOptions() {
+            return globalOptions;
+        }
+
+        public void setGlobalOptions(GlobalOptions globalOptions) {
+            this.globalOptions = globalOptions;
         }
     }
 }

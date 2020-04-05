@@ -107,8 +107,9 @@ public class ChartBuilder {
             return chart;
         }
 
-        public void setChart(ChartType chart) {
+        public newChart setChart(ChartType chart) {
             init(chart);
+            return this;
         }
 
         public GlobalOptions getGlobalOptions() {
@@ -117,6 +118,10 @@ public class ChartBuilder {
 
         public void setGlobalOptions(GlobalOptions globalOptions) {
             this.globalOptions = globalOptions;
+        }
+
+        public ChartType getChartType() {
+            return chartType;
         }
     }
 }

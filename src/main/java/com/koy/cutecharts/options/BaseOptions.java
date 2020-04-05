@@ -3,6 +3,8 @@ package com.koy.cutecharts.options;
 import com.koy.cutecharts.enums.ChartType;
 import com.koy.cutecharts.enums.PositionType;
 
+import java.util.Arrays;
+
 /**
  * @Description
  * @Auther Koy  https://github.com/Koooooo-7
@@ -14,6 +16,9 @@ public class BaseOptions implements Options {
 
     BaseOptions(ChartType chartType) {
         this.chartType = chartType;
+    }
+
+    public BaseOptions() {
     }
 
     /**
@@ -48,7 +53,7 @@ public class BaseOptions implements Options {
                 ", showLabels=" + showLabels +
                 ", showLegend=" + showLegend +
                 ", legendPosition=" + legendPosition +
-                ", dataColors=" + dataColors +
+                ", dataColors=" + Arrays.toString(dataColors) +
                 ", unxkcdify=" + unxkcdify +
                 ", strokeColor='" + strokeColor + '\'' +
                 ", backgroundColor='" + backgroundColor + '\'' +
@@ -123,6 +128,10 @@ public class BaseOptions implements Options {
 
     public ChartType getChartType() {
         return chartType;
+    }
+
+    public void setChartType(ChartType chartType) {
+        this.chartType = chartType;
     }
 
     public String getFontFamily() {

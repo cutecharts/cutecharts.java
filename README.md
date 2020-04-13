@@ -10,7 +10,7 @@
 
 - The cute hand drawing style charts library is based on this project [chart.xkcd](https://github.com/timqian/chart.xkcd) :rocket:.
 - There is an implemention in Python ([cutecharts.py](https://github.com/cutecharts/cutecharts.py)) from my cute friend :dog:.
-- There  the implementation in Java ([cutecharts.java](https://github.com/cutecharts/cutecharts.java)) 🎨.
+- This project is the implemention in Java ([cutecharts.java](https://github.com/cutecharts/cutecharts.java)) 🎨.
 
 
 ##  🔖 Documentation

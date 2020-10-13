@@ -16,7 +16,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <freemarker.version>2.3.20</freemarker.version>
         <fastjson.version>1.2.67</fastjson.version>
-        <junit.version>4.13</junit.version>
+        <junit.version>4.13.1</junit.version>
         <mockito.version>3.3.3</mockito.version>
     </properties>
     <dependencies>
